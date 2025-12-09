@@ -22,3 +22,5 @@ if [ $? -ne 0 ]; then
     echo "Error: Could not create or write file '$writefile'"
     exit 1
 fi
+
+exit 0

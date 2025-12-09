@@ -17,3 +17,5 @@ X=$(find "$filedir" -type f | wc -l)
 Y=$(grep -R "$filedir" 2>/dev/null | wc -l)
 
 echo "The number of filesare $X and the number of matching lines are $Y" 
+
+exit 0
