@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ $# -lt 2 ]; then 
-    echo "Argument amount is wrong"
+    echo "Argument amount is wrong!"
     exit 1
 fi
 
